@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    border: none;
+}
+
+html,
+body{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    border: none;
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    width: 300px;
+}
+
+ul{
+    list-style: none;
+    /* display: inline-block; */
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: transparent;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: transparent;
+}
+
+header {
+    width: 100vw;
+}
+
+.btn {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.btn:hover {
+    background-color: rgb(51, 58, 64);
+    color: whitesmoke;
+}
+
+p.description {
+    padding: 6px;
+    text-align: justify;
+    width: 300px;
+    /* border: 1px red solid; */
+}
+
+#main.container-fluid{
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    background-color: transparent;
+}
+
+.carousel-caption h5 {
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: rgb(51, 58, 64);
+}
+
+
+
+.navbar-dark .navbar-toggler {
+    width: 100vw;
+    border: none;
+    outline: none;
+}
+
+
+a.link {
+    color: whitesmoke;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.bgimg {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+#main .bgimg {
+    background-image: url(./assets/img/mainBackground.jpg);
+}
+
+div, .row {
+    background-color: transparent;
+}
+
+.nav-img {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+}
+
+.underlay {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(110, 109, 109);
+    opacity: 0.5;
+    z-index: -10;
+}
+
+.img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro-logo.img {
+    height: 150px;
+    width: 150px;
+    background-image: url(/public/assets/img/logo300.svg);
+    margin: 10% 0;
+}
+
+/* ARTIST SECTION */
+
+a.a-link {
+    color: rgb(129, 7, 7);
+}
+
+
+/* LOCATION */
+iframe {
+    width: 100vw;
+    height: 300px;
+}
+
+.card {
+    width: 20rem;
+    height: 25rem;
+    display: inline-block;
+}
+
+.card-title {
+    color: black;
+}
+
+/* FORM */
+
+.forms input[type=submit]{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+div#msgsent p {
+    color: rgb(129, 7, 7);
+    font-size: 30px;
+    height: 150px;
+    width: 100%;
+}
+
+
+/* APP */
+
+.ad-nav.btn {
+    border: none;
+    font-style: italic;
+    text-align: left;
+    cursor: pointer;
+    width: 50%;
+    height:50px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+#artistlogin.forms, #add-new-form.forms {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.acct-display-header {
+    border-bottom: 2px solid grey;
+}
+
+#add-new.btn {
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+#add-new.btn:hover  {
+    color: rgb(129, 7, 7);
+
+}
